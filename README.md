@@ -1,7 +1,15 @@
 # Credit Card Reporting Analysis
 
 ## Overview
-This report provides a performance analysis of credit card transactions, focusing on revenue trends, customer demographics, and spending behaviors. It highlights key insights to aid decision-making and strategic planning.
+This report provides a comprehensive analysis of credit card performance, including revenue, transaction trends, customer demographics, and spending behaviors. The data is sourced and managed using PostgreSQL, where two key tables—`cc_detail` and `cust_detail`—store credit card and customer details, respectively.
+
+---
+
+## Data Management
+- **Database**: PostgreSQL  
+- **Tables Created**:
+  1. `cc_detail`: Contains all credit card transaction details, including card types, transaction amounts, and interest earned.  
+  2. `cust_detail`: Stores customer information such as demographics, job types, and income levels.  
 
 ---
 
@@ -61,7 +69,7 @@ This report provides a performance analysis of credit card transactions, focusin
 2. **Capitalize on High-Spending Categories**:  
    Bills (24.6%), entertainment, and fuel (17.5% each) represent the largest spending areas. Tailor marketing campaigns and offers to these categories.  
 
-3. **Target High-Value Customer Segments**:  
+3. **Engage High-Value Customer Segments**:  
    High-income earners (40.4%) and graduates (40.4%) are significant contributors. Introduce exclusive services and promotions aimed at these groups.  
 
 4. **Expand Regional Marketing**:  
@@ -70,9 +78,8 @@ This report provides a performance analysis of credit card transactions, focusin
 ---
 
 ## Usage Instructions
-- Open the `.pbix` file in Power BI Desktop.  
-- Use filters to explore KPIs, spending patterns, and demographic insights.  
-- Analyze trends by adjusting the slicers for time, card type, and customer segments.
+- Open the `.pbix` file in Power BI Desktop to view and interact with visualizations.  
+- Use PostgreSQL tables (`cc_detail` and `cust_detail`) to query raw data for advanced analysis or integration into other systems.  
 
 ---
 
