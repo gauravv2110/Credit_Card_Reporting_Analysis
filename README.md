@@ -1,5 +1,7 @@
 # Credit Card Reporting Analysis
 
+[**View the Full Report**](https://app.fabric.microsoft.com/view?r=eyJrIjoiNDU5OWI0YWYtMzAzOC00Yzg3LTk2M2MtYTJkMWEyZWU1OWQ5IiwidCI6Ijg1MGY0YTAxLTI0OWMtNDRlNC04MDc0LTZlZGYyZDgxZTA2ZSJ9)
+
 ## Overview
 This report provides a comprehensive analysis of credit card performance, including revenue, transaction trends, customer demographics, and spending behaviors. The data is sourced and managed using PostgreSQL, where two key tables—`cc_detail` and `cust_detail`—store credit card and customer details, respectively.
 
